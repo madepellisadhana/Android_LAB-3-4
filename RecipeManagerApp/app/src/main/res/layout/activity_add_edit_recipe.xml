@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical">
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Title"
+           android:id="@+id/input_title"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Ingredients"
+           android:id="@+id/input_ingredients"/>
+
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Instructions"
+           android:id="@+id/input_instructions"/>
+
+       <Spinner
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/spinner_category" />
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Sweetness Level (For Desserts)"
+           android:id="@+id/input_sweetness"/>
+       <EditText
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Preparation Time (For Main Courses)"
+           android:id="@+id/input_prep_time"/>
+       <Button
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Save Recipe"
+           android:id="@+id/btn_save"
+           android:layout_marginTop="16dp"/>
+
+
+
+   </LinearLayout>
+
+
+
+
+</ScrollView>
+
